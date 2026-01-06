@@ -1,0 +1,5 @@
+employeeId,firstName,lastName,department,status
+E001,Alice,Johnson,IT,Active
+E002,Bob,Smith,Finance,Inactive
+E003,Charlie,Davis,HR,Active
+E004,John,Doe,IT,Joiner
