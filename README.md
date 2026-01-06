@@ -77,15 +77,15 @@ This engine automates the **Joiner–Mover–Leaver (JML)** lifecycle to ensure 
 git clone https://github.com/YOUR_USERNAME/IGA-JML-Engine.git
 cd IGA-JML-Engine
 ```
-2️⃣ Compile the Project
+### 2️⃣ Compile the Project
 ```bash
 mvn clean compile
 ```
-3️⃣ Run the Lifecycle Engine
+### 3️⃣ Run the Lifecycle Engine
 ```bash
 mvn exec:java -Dexec.mainClass=com.iga.App
 ```
-📊 Sample Audit Output
+## 📊 Sample Audit Output
 [DB] Target System Initialized Successfully.
 --- Starting IGA Reconciliation Cycle ---
 [SQL] Provisioned/Updated account for: E001
@@ -94,31 +94,31 @@ mvn exec:java -Dexec.mainClass=com.iga.App
 [AUDIT LOG] ACTION: REVOKE_ACCESS | TARGET: E002 | DETAILS: Account disabled due to HR termination
 [NOTIFICATION] Alert sent to Manager: User E002 has been TERMINATED
 --- Cycle Complete ---
-🛡️ Security & Compliance Focus
+
+## 🛡️ Security & Compliance Focus
 This project demonstrates hands-on expertise in:
 
-Identity Lifecycle Management (ILM)
+- Identity Lifecycle Management (ILM)
 
-Automated Provisioning & De-provisioning
+- Automated Provisioning & De-provisioning
 
-Audit Trail Generation
+- Audit Trail Generation
 
-Least Privilege Enforcement
+- Least Privilege Enforcement
 
-Access Creep Prevention
+- Access Creep Prevention
 
-Orphan Account Elimination
+- Orphan Account Elimination
 
-📌 Key Learning Outcomes
-Practical understanding of IGA platforms (Saviynt / SailPoint)
+## 📌 Key Learning Outcomes
+- Practical understanding of IGA platforms (Saviynt / SailPoint)
 
-Real-world JML workflow automation
+- Real-world JML workflow automation
 
-Secure backend design using Java and SQL
+- Secure backend design using Java and SQL
 
-Compliance-oriented system architecture
+- Compliance-oriented system architecture
 
-👤 Author
-[Your Name]
+## 👤 Author
+Akash Naik
 Focus Area: Identity Governance & Administration (IGA)
-Target Roles: Saviynt Developer | IAM Engineer | Security Analyst
