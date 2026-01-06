@@ -76,17 +76,16 @@ This engine automates the **Joiner–Mover–Leaver (JML)** lifecycle to ensure 
 ```bash
 git clone https://github.com/YOUR_USERNAME/IGA-JML-Engine.git
 cd IGA-JML-Engine
+```
 2️⃣ Compile the Project
-bash
-Copy code
+```bash
 mvn clean compile
+```
 3️⃣ Run the Lifecycle Engine
-bash
-Copy code
+```bash
 mvn exec:java -Dexec.mainClass=com.iga.App
+```
 📊 Sample Audit Output
-plaintext
-Copy code
 [DB] Target System Initialized Successfully.
 --- Starting IGA Reconciliation Cycle ---
 [SQL] Provisioned/Updated account for: E001
